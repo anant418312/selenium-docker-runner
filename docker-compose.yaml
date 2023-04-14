@@ -18,7 +18,7 @@ services:
     environment:
       - HUB_HOST=hub
   search-module:
-    image: anant418312/sel2
+    image: anant418312/selenium-docker
     depends_on:
        - chrome
        - firefox
